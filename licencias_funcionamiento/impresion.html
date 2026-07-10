@@ -2,23 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Impresión</title>
+  <title>Impresión - Modelo 139146</title>
 </head>
 <body>
-  <h1>Detalle de impresión</h1>
-  <p id="salida">Cargando...</p>
-
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const modelo = params.get("modelo");
-    const noModelo = params.get("no_modelo");
-
-    document.getElementById("salida").textContent =
-      `Modelo: ${modelo} | No. Modelo: ${noModelo}`;
-
-    // Aquí puedes agregar la lógica real:
-    // por ejemplo, usar "modelo" y "noModelo" para pedir datos a una API,
-    // mostrar una imagen específica, un formulario, etc.
-  </script>
+  <h1>Nombre del producto</h1>
+  <p>Descripción, precio, imagen, lo que necesites mostrar</p>
 </body>
 </html>
